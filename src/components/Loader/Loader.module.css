@@ -1,0 +1,21 @@
+.loader_row_one {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  padding-left: 10px;
+}
+.loader_row_two {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  padding-left: 110px;
+}
+.loader_row_three {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 30px;
+  padding-left: 10px;
+}
