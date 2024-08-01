@@ -13,4 +13,69 @@
 .contact_btn {
   max-height: 30px;
   max-width: 80px;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
+}
+.contact_btn:hover {
+  background-color: orange;
+}
+
+.btn_container {
+  display: flex;
+  gap: 10px;
+}
+
+.modal {
+  width: 300px;
+  height: 150px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+}
+
+.modal_title {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.modal_btn_container {
+  display: flex;
+  gap: 10px;
+}
+
+.modal_btn {
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px 7px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.modal_btn:hover:first-child {
+  background-color: red;
+}
+.modal_btn:hover:last-child {
+  background-color: green;
 }

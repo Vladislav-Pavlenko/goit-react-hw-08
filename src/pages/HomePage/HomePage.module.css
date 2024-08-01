@@ -1,0 +1,78 @@
+.hero {
+  display: flex;
+  padding: 10vh 70px;
+  gap: 30px;
+}
+.hero_info {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.hero_info_title {
+  font-weight: 700;
+  font-size: 62px;
+  color: #fff;
+}
+.hero_info_title_span {
+  color: orange;
+}
+.hero_info_description {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: justify;
+  color: #fff;
+  max-width: 687px;
+}
+.hero_info_contacs_title {
+  position: relative;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 0 70px;
+}
+.hero_info_contacs_title::after {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 60px;
+  height: 3px;
+  top: 15px;
+  left: 200px;
+}
+
+.hero_info_contacs_title::before {
+  position: absolute;
+  content: "";
+  background-color: white;
+  width: 60px;
+  height: 3px;
+  top: 15px;
+  left: 0;
+}
+.hero_info_conatacts_list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  max-width: 260px;
+}
+.hero_info_item {
+}
+.hero_info_link {
+}
+
+.hero_info_icon {
+  transition: all 250ms ease-in-out;
+}
+.hero_info_icon:hover {
+  fill: orange;
+}
+
+.hero_img_frame {
+  background-color: orange;
+  border: 3px solid #9cc4f5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.hero_img {
+}

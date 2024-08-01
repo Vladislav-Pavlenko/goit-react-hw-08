@@ -1,0 +1,8 @@
+.nav {
+  display: flex;
+  margin-left: auto;
+  gap: 10px;
+}
+.active {
+  color: orange;
+}

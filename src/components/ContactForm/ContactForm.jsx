@@ -2,7 +2,7 @@ import { useId } from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import css from "./ContactsForm.module.css";
-import { addContact } from "../../redux/contactsOps";
+import { addContact } from "../../redux/contacts/operations";
 import { useDispatch } from "react-redux";
 
 export default function ContactForm() {
@@ -44,13 +44,23 @@ export default function ContactForm() {
       <Form className={css.form}>
         <div className={css.form_container}>
           <label htmlFor={nameId}>Name</label>
-          <Field type="text" name="name" id={nameId} />
+          <Field
+            className={css.form_input}
+            type="text"
+            name="name"
+            id={nameId}
+          />
           <ErrorMessage name="name" component="span" />
         </div>
 
         <div className={css.form_container}>
           <label htmlFor={numberId}>Number</label>
-          <Field type="tel" name="number" id={numberId} />
+          <Field
+            className={css.form_input}
+            type="tel"
+            name="number"
+            id={numberId}
+          />
           <ErrorMessage name="number" component="span" />
         </div>
         <button className={css.form_btn} type="submit">

@@ -10,7 +10,7 @@
   padding: 10px;
   display: flex;
   border: 1px solid white;
-  border-radius: 5px;
-  gap: 40px;
+  border-radius: 15px;
+  gap: 20px;
   align-items: center;
 }

@@ -1,0 +1,17 @@
+.label {
+  margin-bottom: 5px;
+}
+
+.input {
+  width: 240px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 20px;
+  padding: 5px 10px;
+  transition: all 250ms ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  border-color: orange;
+}
